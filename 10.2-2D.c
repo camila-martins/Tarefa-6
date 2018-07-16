@@ -4,7 +4,7 @@
 
 #define N 3
 #define eps 1e-5
-
+//Método de Newton
 double f1( double x[N] )
 {	return 8* x[1] + 4* pow(x[2],2) -9;
 }
