@@ -3,7 +3,7 @@
 
 #define N 3
 #define eps 1e-5
-
+// Método do Ponto Fixo
 float f1( float x[N] )
 {	return sqrt(x[1] - 2.* x[1] + 2.* x[2]);
 }
