@@ -6,7 +6,7 @@
 #define N 2
 #define eps 1e-5
 #define dt 1e-6
-
+//Método Quasi-Newton
 double f1( double x[N] )
 {	return 2* x[0] - 5* x[1] +8 +1/2;
 }
