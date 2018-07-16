@@ -5,7 +5,7 @@
 #define N 3
 #define eps 5e-2
 #define dt 1e-6
-
+//Método Steepest Decent.
 double f1( double x[N] )
 {	
 	return 5* x[0] + pow(x[1], 2) - 4* x[2] - 13;
